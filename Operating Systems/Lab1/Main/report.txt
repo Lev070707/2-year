@@ -1,0 +1,4 @@
+Report for file: employees.bin
+ID	Name	Hours	Salary
+1	Alice	20.00	310.00
+2	Bob	17.50	271.25
