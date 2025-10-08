@@ -3,26 +3,71 @@ build/
 out/
 bin/
 CMakeFiles/
-.vs/
 CMakeCache.txt
+Testing/
+Makefile
+*.cmake
+
+# Visual Studio generated
+.vs/
 *.sln
 *.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.db
+*.cachefile
+*.ipch/
 *.obj
 *.pdb
-*.lib
-*.exe
+*.idb
+*.ilk
+*.tlog/
+*.log
+*.pch
 
-# ===== IDE =====
+# ===== IDE settings =====
 .vscode/
 .idea/
 *.user
+*.userosscache
 *.opensdf
 *.sdf
+*.tlog
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.ncb
 *.ipch
+*.pdb
+*.suo
+*.VC.db
 
-# ===== System =====
+# ===== GoogleTest / Third-party build =====
+googletest/
+*_deps/
+*.a
+*.lib
+*.dll
+*.so
+
+# ===== System / OS =====
 Thumbs.db
 .DS_Store
+desktop.ini
+$RECYCLE.BIN/
 
-# ===== Logs =====
+# ===== Logs and temporary =====
 *.log
+*.tmp
+*.bak
+*.swp
+*.zip
+*.7z
+*.tar
+*.gz
