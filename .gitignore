@@ -1,0 +1,27 @@
+# ===== CMake / Visual Studio =====
+build/
+out/
+bin/
+CMakeFiles/
+CMakeCache.txt
+*.sln
+*.vcxproj*
+*.obj
+*.pdb
+*.lib
+*.exe
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.user
+*.opensdf
+*.sdf
+*.ipch
+
+# ===== System =====
+Thumbs.db
+.DS_Store
+
+# ===== Logs =====
+*.log
