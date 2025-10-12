@@ -13,12 +13,10 @@
   },
   "ExpandedNodes": [
     "",
-    "\\Creator",
     "\\Main",
-    "\\out",
     "\\Reporter",
     "\\tests"
   ],
-  "SelectedNode": "\\Creator\\Creator.cpp",
+  "SelectedNode": "\\Reporter\\Reporter.cpp",
   "PreviewInSolutionExplorer": false
 }

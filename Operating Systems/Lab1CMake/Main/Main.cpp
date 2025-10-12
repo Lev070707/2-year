@@ -10,7 +10,8 @@
 
 static bool LaunchProcessAndWait(const std::string& cmdline, DWORD& exitCode, std::string& err) {
     STARTUPINFOA si; PROCESS_INFORMATION pi;
-    ZeroMemory(&si, sizeof(si)); si.cb = sizeof(si);
+    ZeroMemory(&si, sizeof(si));
+    si.cb = sizeof(si);
     ZeroMemory(&pi, sizeof(pi));
     std::vector<char> cmd(cmdline.begin(), cmdline.end()); cmd.push_back('\0');
     if (!CreateProcessA(NULL, cmd.data(), NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)) {
