@@ -8,6 +8,15 @@
 
 extern std::mutex console_mutex;
 
+double find_average(const std::vector<int>& arr) {
+    double sum = 0;
+    for (size_t i = 0; i < arr.size(); ++i) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(12));
+        sum += arr[i];
+    }
+    return sum / arr.size();
+}
+
 void averageThread(const std::vector<int>& arr) {
     if (arr.empty()) {
         std::lock_guard<std::mutex> lk(console_mutex);

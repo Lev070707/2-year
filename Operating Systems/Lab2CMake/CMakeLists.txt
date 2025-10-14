@@ -23,6 +23,5 @@ target_include_directories(corelib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 add_executable(main src/main.cpp)
 target_link_libraries(main PRIVATE corelib)
 
-# Тесты
 enable_testing()
 add_subdirectory(tests)
