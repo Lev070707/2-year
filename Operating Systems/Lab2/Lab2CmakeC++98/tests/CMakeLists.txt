@@ -1,0 +1,5 @@
+add_executable(tests test_threads.cpp "doctest.h")
+target_include_directories(tests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src ${doctest_SOURCE_DIR}/single_include)
+target_link_libraries(tests PRIVATE corelib)
+set_property(TARGET tests PROPERTY CXX_STANDARD 98)
+add_test(NAME doctests COMMAND tests)
